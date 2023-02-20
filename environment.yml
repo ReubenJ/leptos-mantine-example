@@ -1,0 +1,5 @@
+name: "leptos-mantine-example"
+channels:
+  - "conda-forge"
+dependencies:
+  - "pre-commit"
