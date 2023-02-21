@@ -15,4 +15,3 @@ repos:
       - id: fmt
       - id: cargo-check
       - id: clippy
-    
