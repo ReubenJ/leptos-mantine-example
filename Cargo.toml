@@ -1,0 +1,18 @@
+[package]
+name = "leptos_mantine_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+leptos = { version = "0.1.3" }
+console_log = "0.2"
+log = "0.4"
+console_error_panic_hook = "0.1.7"
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.0"
+
+[[workspace.metadata.leptos]]
+name = "leptos-project"
+bin-package = "leptos_mantine_example"
+lib-package = "leptos_mantine_example"
